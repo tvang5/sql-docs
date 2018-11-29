@@ -80,7 +80,11 @@ In both cases, the Lookup transformation will utilize the OLE DB connection mana
   
 5.  Double-click the **Lookup Date Key** transformation.  
   
-6.  On the **General** page, select **Partial cache**.  
+6.  On the **General** page, make the following selections:  
+  
+    1.  Select **Partial cache**.  
+  
+    2.  In the **Specify how to handle rows with no matching entries**, select **Redirect rows to no match output**.
   
 7.  On the **Connection** page, make the following selections:  
   
